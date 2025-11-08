@@ -1,5 +1,4 @@
 import argparse
-import sys
 
 
 class DependencyGraphVisualizer:
@@ -129,7 +128,5 @@ def main():
     visualizer = DependencyGraphVisualizer()
     return visualizer.run()
 
-
 if __name__ == "__main__":
-    exit_code = main()
-    sys.exit(exit_code)
+    main()
