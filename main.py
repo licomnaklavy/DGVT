@@ -116,11 +116,11 @@ class DependencyGraphVisualizer:
             return 0
 
         except ValueError as e:
-            print(f"ОШИБКА: {e}", file=sys.stderr)
+            print(f"ОШИБКА: {e}")
             self.parser.print_help()
             return 1
         except Exception as e:
-            print(f"НЕОЖИДАННАЯ ОШИБКА: {e}", file=sys.stderr)
+            print(f"НЕОЖИДАННАЯ ОШИБКА: {e}")
             return 1
 
 
