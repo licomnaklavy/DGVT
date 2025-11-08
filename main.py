@@ -119,9 +119,6 @@ class DependencyGraphVisualizer:
             print(f"ОШИБКА: {e}")
             self.parser.print_help()
             return 1
-        except Exception as e:
-            print(f"НЕОЖИДАННАЯ ОШИБКА: {e}")
-            return 1
 
 
 def main():
